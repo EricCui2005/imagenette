@@ -2,3 +2,4 @@
 __pycache__
 imagenette2-320/
 feature_maps/
+.env
