@@ -75,9 +75,3 @@ model_path = f"cnn_model_{timestamp}.h5"
 
 ## Feature Map Visualization
 The project includes utilities to visualize and save feature maps from convolutional layers, helping understand what patterns the model learns to detect.
-
-## License
-[Your chosen license]
-
-## Contributors
-[Your name/organization]
