@@ -43,18 +43,6 @@ A more sophisticated model implemented using TensorFlow/Keras that:
 - Training progress tracking
 - Validation accuracy monitoring
 
-## Requirements
-
-- Python 3.12
-- PyTorch
-- TensorFlow
-- OpenCV (cv2)
-- Pandas
-- NumPy
-- Matplotlib
-- tqdm
-- Pillow (PIL)
-
 ## Installation
 
 1. Create a virtual environment:
