@@ -60,10 +60,31 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Place the Imagenette dataset in the `imagenette2-320/` directory
-2. Run the notebooks:
+1. Set up environment variables:
+
+   - Copy `.env.example` to create your own `.env` file:
+     ```bash
+     cp .env.example .env
+     ```
+   - Edit `.env` with your paths:
+     ```bash
+     TRAIN_CSV_PATH=/path/to/train_imagenette.csv
+     VALIDATION_CSV_PATH=/path/to/val_imagenette.csv
+     PATH_PREFIX=/path/to/imagenette2-320
+     PATH_TO_EXAMPLE_IMAGE=/path/to/example/image.JPEG
+     ```
+
+2. Place the Imagenette dataset in your specified directory (PATH_PREFIX in .env)
+
+3. Run the notebooks:
+
    - `multinomial_logistic_regression.ipynb` for the Softmax classifier
    - `convolutional_neural_network.ipynb` for the CNN implementation
+
+4. Model outputs:
+   - Trained models will be saved to the directory specified in your .env
+   - Feature maps will be saved to the 'feature_maps' directory
+   - Training logs and visualizations will be displayed in the notebooks
 
 ## Model Saving
 
